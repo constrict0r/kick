@@ -1,0 +1,16 @@
+---
+image: python:3.7
+
+stages:
+  - test
+
+before_script:
+  - apt update
+  - apt install -y bats git
+  - chmod +x testme.sh
+
+testme:
+  stage: test
+  script:
+    - ./testme.sh -t
+  timeout: 1h 30m

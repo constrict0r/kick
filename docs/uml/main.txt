@@ -1,0 +1,38 @@
+@startuml
+'Use plantuml to view this file as an image: http://plantuml.com'
+
+skinparam monochrome reverse
+
+start
+
+if (user is root?) then (yes)
+
+  :Obtain parameters;
+  :Remove old ansible versions;
+  :Update apt cache;
+  :Install ansible >= 2.8;
+
+  :Set role_to_include = basik;
+  if (desktop parameter present?) then (yes)
+    :Set role_to_include = desktop;
+  else (no)
+  endif
+
+  if (configuration_path not empty?) then (yes)
+    :Set role_to_include = constructor;
+  else (no)
+  endif
+
+  :Include role_to_include;
+
+  if (extra role specified?) then (yes)
+    :Include extra ansible role;
+  else (no)
+  endif
+
+else (no)
+  :Show error;
+endif
+
+end
+@enduml
