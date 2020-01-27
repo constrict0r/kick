@@ -6,7 +6,7 @@ stages:
 
 before_script:
   - apt update
-  - apt install -y bats git sudo
+  - apt install -y bats git sudo wget
   - chmod +x testme.sh
 
 testme:
