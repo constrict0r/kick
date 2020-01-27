@@ -1,16 +1,16 @@
 ---
-image: python:3.7
+image: debian:latest
 
 stages:
   - test
 
 before_script:
   - apt update
-  - apt install -y bats git
+  - apt install -y bats git sudo
   - chmod +x testme.sh
 
 testme:
   stage: test
   script:
-    - ./testme.sh -t
+    - sudo ./testme.sh -t
   timeout: 1h 30m
