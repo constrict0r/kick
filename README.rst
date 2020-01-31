@@ -124,15 +124,17 @@ Download the script, give it execution permissions and execute it:
    chmod +x kick.sh
    ./kick.sh -h
 
-To run tests:
+* To run tests:
 
-::
+..
 
-   cd kick
-   chmod +x testme.sh
-   ./testme.sh
+   ::
 
-On some tests you may need to use *sudo* to succeed.
+      cd kick
+      chmod +x testme.sh
+      ./testme.sh
+
+   On some tests you may need to use *sudo* to succeed.
 
 
 Parameters
