@@ -120,7 +120,7 @@ Download the script, give it execution permissions and execute it:
 
 ::
 
-   wget https://raw.githubusercontent.com/constrict0r/kick/master/kick.sh
+   wget https://gitlab.com/constrict0r/kick/raw/master/kick.sh
    chmod +x kick.sh
    ./kick.sh -h
 
