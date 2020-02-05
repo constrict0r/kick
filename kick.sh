@@ -33,7 +33,7 @@ PASSWORD='1234'
 # Absolute file path to a yml file containing:
 # - A list of apt repositories to add.
 # - A list of packages to install via apt.
-# - A list of packages to install via npm.
+# - A list of packages to install via yarn.
 # - A list of packages to install via pip.
 # - An URL to a skeleton git repository to copy to /.
 # - A list of services to enable and restart.
@@ -202,7 +202,7 @@ function help() {
     echo 'Parameters: '
     echo '-c <file path> (configuration file path): Absolute path to a yml
              file containing some of the following informations: list of apt
-             repos, list of apt packages, list of npm packages, list of pip
+             repos, list of apt packages, list of yarn packages, list of pip
              packages, list of services, git urls, list of users, paths or
              URLs Ansible taks files.'
     echo '-d (desktop): Install and configure a desktop enviroment. If used -c

@@ -40,4 +40,4 @@ writing configuration files, be sure to use the **item_path** and
 `expand attribute <https://github.com/constrict0r/constructor#item_expand>`_).
 
 For more information see: 
-`constructor role <https://github.com/constrict0r/constructor>`_.
+`constructor role <https://gitlab.com/constrict0r/constructor>`_.

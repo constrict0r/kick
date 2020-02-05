@@ -1,4 +1,4 @@
-- **-c** (configuration path): Absolute path to a .yml file containing some or
+- *-c* (configuration path): Absolute path to a .yml file containing some or
   all of the following configuration:
 
  - A list of apt repositories to add (see *constrict0r.sourcez* role).
@@ -7,7 +7,7 @@
 
  - A list of packages to install via Apt (see *constrict0r.aptitude* role).
 
- - A list of packages to install via npm (see *constrict0r.jsnode* role).
+ - A list of packages to install via yarn (see *constrict0r.jsnode* role).
 
  - A list of packages to install via pip (see *constrict0r.pyp* role).
  

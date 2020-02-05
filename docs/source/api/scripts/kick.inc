@@ -44,7 +44,7 @@ Globals
       Absolute file path to a yml file containing:
           - A list of apt repositories to add.
           - A list of packages to install via apt.
-          - A list of packages to install via npm.
+          - A list of packages to install via yarn.
           - A list of packages to install via pip.
           - An URL to a skeleton git repository to copy to /.
           - A list of services to enable and restart.

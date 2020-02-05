@@ -110,7 +110,7 @@ when writing configuration files, be sure to use the **item_path** and
 <https://github.com/constrict0r/constructor#item_expand>`_).
 
 For more information see: `constructor role
-<https://github.com/constrict0r/constructor>`_.
+<https://gitlab.com/constrict0r/constructor>`_.
 
 
 Usage
@@ -146,8 +146,8 @@ The following parameters are supported:
 configuration
 =============
 
-* **-c** (configuration path): Absolute path to a .yml file
-   containing some or all of the following configuration:
+* *-c* (configuration path): Absolute path to a .yml file containing
+   some or all of the following configuration:
 
 ..
 
@@ -160,7 +160,7 @@ configuration
    * A list of packages to install via Apt (see
       *constrict0r.aptitude* role).
 
-   * A list of packages to install via npm (see *constrict0r.jsnode*
+   * A list of packages to install via yarn (see *constrict0r.jsnode*
       role).
 
    * A list of packages to install via pip (see *constrict0r.pyp*
@@ -198,7 +198,7 @@ configuration
 desktop
 =======
 
-* **-d** (desktop): If present, install and execute the
+* *-d* (desktop): If present, install and execute the
    *constrict0r.desktop* ansible role which fully setups Debian (or a
    Debian-like system).
 
@@ -244,8 +244,8 @@ If this variable is not specified, the current username will be used.
 extra-role-variables
 ====================
 
-* **-v** (extra-role variables): The variable keys and values stored
-   on this variable are passed to the extra role (**-x**) if it is
+* *-v* (extra-role variables): The variable keys and values stored on
+   this variable are passed to the extra role (**-x**) if it is
    defined.
 
 ..
@@ -271,7 +271,7 @@ password
 extra-role
 ==========
 
-* **-x** (extra-role): If present, install and execute the specified
+* *-x* (extra-role): If present, install and execute the specified
    ansible role after the main setup process has finished.
 
 ..
@@ -388,7 +388,7 @@ Author
 .. image:: https://gitlab.com/constrict0r/img/raw/master/kick/author.png
    :alt: author
 
-The travelling vaudeville villain.
+The Travelling Vaudeville Villain.
 
 Enjoy!!!
 
@@ -473,7 +473,7 @@ Globals
 
          * A list of packages to install via apt.
 
-         * A list of packages to install via npm.
+         * A list of packages to install via yarn.
 
          * A list of packages to install via pip.
 
