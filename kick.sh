@@ -79,8 +79,8 @@ function ansible_include_role() {
     #   - Remove local playbook last line.
     #   - Add required role name on last line.
     #   - Run local playbook.
-    wget https://is.gd/FYZaoL -O inventory
-    wget https://is.gd/BzcmAd -O local-playbook.yml
+    wget https://is.gd/RdRoUB -O inventory
+    wget https://is.gd/SLWBD9 -O local-playbook.yml
     sed -i '$ d' local-playbook.yml
     echo "    - { role: $role_name }" >> local-playbook.yml
     ${ansible_path}-playbook -i inventory local-playbook.yml \
