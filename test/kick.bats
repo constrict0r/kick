@@ -11,7 +11,7 @@ setup() {
 }
 
 teardown() {
-    rm -r /tmp/example-configuration.yml
+    rm -rf /tmp/example-configuration.yml
 }
 
 
