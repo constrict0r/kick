@@ -1,5 +1,5 @@
 Description
-------------------------------------------------------------------------------
+--------------------------------------------------------------
 
 Bash script that uses a stack of Ansible roles to kick-start Debian-like
 systems.
@@ -36,8 +36,8 @@ When a configuration file is specified, the **expand** variable for the
 **constrict0r.constructor** role is setted to *true* **always** so when
 writing configuration files, be sure to use the **item_path** and
 **item_expand** attributes if you need to change the default behaviour
-(see 
+(see
 `expand attribute <https://github.com/constrict0r/constructor#item_expand>`_).
 
-For more information see: 
+For more information see:
 `constructor role <https://gitlab.com/constrict0r/constructor>`_.

@@ -14,8 +14,8 @@ kick
 `Bash <https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29>`_ script
 to kick-start Debian-like systems.
 
-.. image:: https://gitlab.com/constrict0r/img/raw/master/kick/kick.png
-   :alt: kick
+.. image:: https://gitlab.com/constrict0r/img/raw/master/kick/avatar.png
+   :alt: avatar
 
 Full documentation on `Readthedocs <https://kick.readthedocs.io>`_.
 
@@ -25,15 +25,15 @@ Source code on:
 
 `Gitlab <https://gitlab.com/constrict0r/kick>`_.
 
-`Part of: <https://gitlab.com/explore/projects?tag=doombots>`_
+`Part of: <https://gitlab.com/explore/projects?tag=doombot>`_
 
-.. image:: https://gitlab.com/constrict0r/img/raw/master/kick/doombots.png
-   :alt: doombots
+.. image:: https://gitlab.com/constrict0r/img/raw/master/kick/doombot.png
+   :alt: doombot
 
 **Ingredients**
 
-.. image:: https://gitlab.com/constrict0r/img/raw/master/kick/ingredients.png
-   :alt: ingredients
+.. image:: https://gitlab.com/constrict0r/img/raw/master/kick/ingredient.png
+   :alt: ingredient
 
 
 Contents
@@ -113,6 +113,7 @@ For more information see: `constructor role
 <https://gitlab.com/constrict0r/constructor>`_.
 
 
+
 Usage
 *****
 
@@ -122,19 +123,18 @@ Download the script, give it execution permissions and execute it:
 
    wget https://gitlab.com/constrict0r/kick/raw/master/kick.sh
    chmod +x kick.sh
-   ./kick.sh -h
+   ./kick.sh
 
-* To run tests:
+To run tests:
 
-..
+::
 
-   ::
+   cd kick
+   chmod +x testme.sh
+   ./testme.sh
 
-      cd kick
-      chmod +x testme.sh
-      ./testme.sh
+On some tests you may need to use *sudo* to succeed.
 
-   On some tests you may need to use *sudo* to succeed.
 
 
 Parameters
@@ -294,6 +294,7 @@ check
       kick.sh -z
 
 
+
 YAML
 ****
 
@@ -328,6 +329,7 @@ If the expand variable is *false*, any file path or URL found will be
 treated like plain text.
 
 
+
 Compatibility
 *************
 
@@ -340,10 +342,12 @@ Compatibility
 * `Ubuntu Xenial <http://releases.ubuntu.com/16.04/>`_.
 
 
+
 License
 *******
 
 MIT. See the LICENSE file for more details.
+
 
 
 Links
@@ -360,6 +364,7 @@ Links
 * `Travis CI <https://travis-ci.com/constrict0r/kick>`_.
 
 
+
 UML
 ***
 
@@ -369,8 +374,8 @@ Deployment
 
 The full project structure is shown below:
 
-.. image:: https://gitlab.com/constrict0r/img/raw/master/kick/deployment.png
-   :alt: deployment
+.. image:: https://gitlab.com/constrict0r/img/raw/master/kick/deploy.png
+   :alt: deploy
 
 
 Main
@@ -380,6 +385,7 @@ The project data flow is shown below:
 
 .. image:: https://gitlab.com/constrict0r/img/raw/master/kick/main.png
    :alt: main
+
 
 
 Author
@@ -394,6 +400,7 @@ Enjoy!!!
 
 .. image:: https://gitlab.com/constrict0r/img/raw/master/kick/enjoy.png
    :alt: enjoy
+
 
 
 API
@@ -677,4 +684,5 @@ Functions
 
       :Return type:
          int
+
 

@@ -1,5 +1,5 @@
 |PROJECT|
-==============================================================================
+==============================================================
 
 |GITLAB_BADGE|
 
@@ -20,12 +20,12 @@ Source code on:
 
 |GITLAB_LINK|.
 
-.. include:: parts/doombots.inc
+.. include:: part/doombot.inc
 
-.. include:: parts/ingredients.inc
+.. include:: part/ingredient.inc
 
 Contents
-==============================================================================
+==============================================================
 
 .. toctree::
 
@@ -33,7 +33,7 @@ Contents
 
    usage
 
-   parameters
+   parameter
 
    format
 
@@ -41,16 +41,15 @@ Contents
 
    license
 
-   links
+   link
 
    uml
 
    author
 
 API Contents
-==============================================================================
+==============================================================
 
 .. toctree::
 
    api
-

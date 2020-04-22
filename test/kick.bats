@@ -6,7 +6,7 @@
 
 setup() {
     source kick.sh
-    wget https://is.gd/sjn8du -O /tmp/example-configuration.yml
+    wget https://is.gd/2iOUfm -O /tmp/example-configuration.yml
 }
 
 teardown() {
