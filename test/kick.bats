@@ -5,13 +5,13 @@
 # This test must be runned from the root repository directory.
 
 setup() {
-    apt install -y wget
+    apt install -y wget &>/dev/null
     source kick.sh
     wget https://is.gd/2iOUfm -O /tmp/example-configuration.yml
 }
 
 teardown() {
-    rm -rf /tmp/example-configuration.yml
+    rm -rf /tmp/example-configuration.yml &>/dev/null
 }
 
 
